@@ -1,6 +1,9 @@
 spring:
   application:
     name: user-service
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
 server:
   port: 8083
 eureka:
